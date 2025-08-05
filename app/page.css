@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom right, #0e2c3f, #0f3a42);
+    color: white;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 120px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+  
+  .search-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-contact input {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .search-contact button {
+    background-color: #1b4f58;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .tagline {
+    color: #86efac;
+    font-size: 0.9rem;
+  }
+  
+  .highlight {
+    color: #bef264;
+  }
+  
+  .description {
+    margin: 20px 0;
+    color: #ccc;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .primary {
+    background-color: #bef264;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .secondary {
+    background: none;
+    border: 1px solid #ccc;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+  
+  .dashboard-card, .progress-card {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .graph-placeholder {
+    height: 80px;
+    background-color: #eee;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .progress-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .progress-circle {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .progress-circle .number {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .progress-circle .denominator {
+    font-size: 0.75rem;
+    color: #555;
+  }
+  
+  .partners {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background: linear-gradient(to right, #0a2a35, #0e4a56);
+    opacity: 0.8;
+    font-size: 0.9rem;
+  }
+  
